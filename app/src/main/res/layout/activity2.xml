@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_width="700px"
+        android:layout_height="wrap_content"
+        android:hint="write here!"
+        android:id="@+id/editTextActivity2"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        />
+    <Button
+        android:id="@+id/btn_activity2"
+        android:layout_width="700px"
+        android:layout_height="wrap_content"
+        android:text="Set View"
+        android:background="@color/colorPrimary"
+        android:textColor="#fff"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10px"
+        android:onClick="onSetView"
+        />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:id="@+id/ui_container"
+        />
+
+</LinearLayout>
